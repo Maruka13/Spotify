@@ -21,7 +21,7 @@ h1 {
     padding: 16px 0 0 16px;
 }
 
-.logo{
+.logo img {
     background: #121212;
     display:flex;
     border-radius:8px ;
