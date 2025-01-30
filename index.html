@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Spotify</title>
+
     <link rel="stylesheet" href="./src/styles/reset.css">
     <link rel="stylesheet" href="./src/styles/vars.css">
     <link rel="stylesheet" href="./src/styles/sidebar-footer.css">
-
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
         integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
@@ -78,12 +78,19 @@
         <div class="main-container">
             <nav>
                 <div class="navigation">
+
                     <button class="arrow-left">
                         <img src="./src/assets/icons/small-left.png" alt="Seta esquerda">
                     </button>
                     <button class="arrow-right">
                         <img src="./src/assets/icons/small-right.png" alt="Seta direita">
                     </button>
+
+                    <div class="header__search">
+                        <img src="./src/assets/icons/search.png" alt="">
+                        <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?"/>
+                    </div>
+
                 </div>
             </nav>
         </div>
@@ -101,6 +108,7 @@
             <button type="button">Inscreva-se grátis</button>
         </div>
     </footer>
+
 </body>
 
 </html>
